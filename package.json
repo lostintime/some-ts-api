@@ -1,7 +1,7 @@
 {
   "name": "@lostintime/some-api",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Some API",
   "author": "lostintime.dev@gmail.com",
   "main": "dist/index.js",
