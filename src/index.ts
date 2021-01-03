@@ -11,7 +11,7 @@ interface Jam {
 }
 
 export interface SomeApi {
-  makeJuice(fruit: Fruit): Promise<Juice>
+  makeJuice: (fruit: Fruit) => Promise<Juice>
 
-  makeJam(fruit: Fruit): Promise<Jam>
+  makeJam: (fruit: Fruit) => Promise<Jam>
 }
