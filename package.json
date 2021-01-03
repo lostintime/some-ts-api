@@ -13,8 +13,7 @@
     "test:watch": "TS_NODE_PROJECT=./tsconfig.test.json mocha --config .mocharc.json --watch",
     "prebuild": "npm run clean",
     "build": "tsc",
-    "build:watch": "tsc -w",
-    "prepare": "npm run-script build"
+    "build:watch": "tsc -w"
   },
   "dependencies": {},
   "devDependencies": {
