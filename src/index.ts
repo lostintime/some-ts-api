@@ -2,6 +2,10 @@ interface Fruit {
   readonly cat: "fruit"
 }
 
+interface Apple extends Fruit {
+  readonly type: "apple"
+}
+
 interface Juice {
   readonly cat: "juice"
 }
@@ -11,7 +15,7 @@ interface Jam {
 }
 
 export interface SomeApi {
-  makeJuice: (fruit: Fruit) => Promise<Juice>
+  makeJuice: (fruit: Apple) => Promise<Juice>
 
   makeJam: (fruit: Fruit) => Promise<Jam>
 }
